@@ -15,7 +15,7 @@ public class StepTracker {
     }
 
     class MonthData {
-        М
+
     }
 
     public void newStepGoal() { // Метод по определению целевого количества шагов
