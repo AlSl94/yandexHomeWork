@@ -10,7 +10,7 @@ public class Converter {
     }
 
     double convertCalories(int steps) {
-        double kiloCalories = (steps * caloriePerStep) * 1000;
+        int kiloCalories = (steps * caloriePerStep) / 1000;
         return kiloCalories;
     }
 }

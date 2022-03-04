@@ -1,6 +1,6 @@
 package ru.yandex.expensesManager;
 import java.util.Scanner;
-public class Praktikum {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Сколько денег у вас осталось до зарплаты?");
