@@ -15,7 +15,9 @@ public class Main {
                     System.out.println("Всего доброго!");
                     return;
                 case "1":
-                    mReport.splitLines();
+                    mReport.splitMonthLines();
+                    break;
+                case "2":
                     break;
             }
         }

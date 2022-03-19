@@ -1,9 +1,15 @@
 package Eva;
-import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
+        Matrix matrix = new Matrix();
+        matrix.commandLine();
+        matrix.presentMyArray(matrix.massArray, matrix.massRows, matrix.massColumns);
+        matrix.reversArray(matrix.massArray);
+
+
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Сколько у вас котов?");
         Cats cats = new Cats();
         while (true) {
@@ -94,7 +100,8 @@ public class Main {
         System.out.println("3 - Добавить или убавить еду у четных или нечетных котов");
         System.out.println("4 - Выйти из программы");
     }
-
+*/
+    }
 }
 
 

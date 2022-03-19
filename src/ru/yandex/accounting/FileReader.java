@@ -21,5 +21,4 @@ public class FileReader {
                 "/ru/yandex/accounting/resources/m." + fileName + ".csv");
         return fileContents;
     }
-
 }
